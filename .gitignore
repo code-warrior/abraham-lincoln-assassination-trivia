@@ -1,0 +1,42 @@
+########
+# SASS #
+########
+*.scssc
+.sass-cache
+*.map
+
+###########
+# Windows #
+###########
+# https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+####################################
+# PHPStorm, IntelliJ, and WebStorm #
+####################################
+.idea/
+
+###############
+# SublimeText #
+###############
+# https://github.com/github/gitignore/blob/master/Global/SublimeText.gitignore
+# SublimeText project files
+*.sublime-workspace
+
+# Folder config file
+Desktop.ini
+desktoop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/

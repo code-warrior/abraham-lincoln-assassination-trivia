@@ -1,0 +1,152 @@
+@import url("http://fonts.googleapis.com/css?family=Hind:400,700&subset=latin,latin-ext");
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+[class~="fa"] {
+  font-size: 1.7em;
+}
+
+.fa-remove {
+  color: red;
+}
+
+.fa-check {
+  color: green;
+}
+
+h1 {
+  padding: 24px 0;
+  margin: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+input, select, textarea {
+  font: 1em "Hind", sans-serif;
+}
+
+button {
+  border: 0;
+  background-color: #aaa;
+  color: #fff;
+  padding: 7px;
+}
+
+input {
+  background-color: transparent;
+  color: white;
+  padding: 0 8px;
+  width: 200px;
+  border: 0;
+  border-bottom: 2px solid white;
+}
+input[type="submit"] {
+  border: 0;
+}
+
+textarea {
+  padding: 10px;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.5) url("http://ngm.nationalgeographic.com/2015/04/lincoln-funeral-train/img/04-lincolns-catafalque-us-capitol-670.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  font: 1.1em / 1.45 "Hind", sans-serif;
+  font-size: 1.1em;
+  color: white;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+abbr {
+  cursor: help;
+  border-bottom: 1px dotted white;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  display: none;
+  opacity: 0;
+  transition: 2s;
+}
+main p {
+  margin: 0 0 25px;
+}
+main.transition {
+  opacity: 1;
+}
+main section {
+  display: none;
+  margin: 20px 0;
+}
+main section > div {
+  display: table-cell;
+  width: 590px;
+}
+main section > div select {
+  margin: 10px 10px 10px 0;
+}
+main section > aside {
+  display: table-cell;
+  text-align: right;
+  opacity: 0;
+  width: 370px;
+  transition: 250ms;
+}
+main section > aside.transition {
+  opacity: 1;
+}
+main section > button {
+  opacity: 0;
+  display: none;
+  float: right;
+  width: 100px;
+  transition: 250ms;
+}
+main section > button.transition {
+  opacity: 1;
+}
+
+#name-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 30px;
+  height: 40px;
+  position: relative;
+}
+#name-container input {
+  width: 100px;
+  margin: 0 10px;
+}
+
+#show-users-name {
+  font-size: 1.4em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0);
+  transition: 500ms;
+}
+#show-users-name.transition {
+  color: white;
+}
+
+.error-highlight {
+  color: red;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2px 10px;
+}
