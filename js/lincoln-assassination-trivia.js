@@ -48,7 +48,13 @@ function showQuestionWhereWasLincolnBorn() {
 }
 
 /**
+ * SHOW QUESTION “WHO ASSASSINATED LINCOLN?”
  *
+ * Firing off this function displays the container for the question “Who Assassinated
+ * Lincoln?”, then removes the “Submit” button associated with the question “Where
+ * Was Lincoln Born?” and the “Next Question” button that is shown when the user
+ * answers the “Where Was Lincoln Born?” question correctly. The drop down menu
+ * showing the location options of Lincoln’s birth is disabled, also.
  */
 function showQuestionWhoAssassinatedLincoln() {
     "use strict";
