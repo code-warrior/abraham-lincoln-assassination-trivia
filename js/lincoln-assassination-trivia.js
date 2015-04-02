@@ -169,7 +169,10 @@ function checkAnswerToLincolnsBirthPlaceQuestion() {
 }
 
 /**
+ * CHECK ANSWER TO LINCOLN’S ASSASSINATION QUESTION
  *
+ * This function works exactly as the previous function, but for the <section> with
+ * ID “who-assassinated-lincoln-question-container.”
  */
 function checkAnswerToLincolnsAssassinQuestion() {
     "use strict";
