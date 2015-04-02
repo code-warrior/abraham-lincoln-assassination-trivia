@@ -272,7 +272,11 @@ function setUsersName() {
 }
 
 /**
+ * ONLOAD
  *
+ * This function binds all the global variables established at the beginning of this
+ * JavaScript file to all the ID attributes in “index.html.” It also binds the click
+ * event listeners to each of the buttons found in “index.html.”
  */
 window.onload = function () {
     "use strict";
