@@ -66,7 +66,17 @@ function showQuestionWhoAssassinatedLincoln() {
 }
 
 /**
+ * SHOW RESULTS
  *
+ * This function does for the question “Who Assassinated Lincoln?” what the function
+ * showQuestionWhoAssassinatedLincoln() does for the question “Where Was Lincoln
+ * Born?” Except, however, that it doesn’t trigger the display for a new question.
+ *
+ * You can choose to display some results about how the user answered these
+ * questions. For example, how long they took to take this quiz, or how many times
+ * they chose a drop down option before choosing the correct answer.
+ *
+ * In other words, this is a homework function that you might want to modify.
  */
 function showResults() {
     "use strict";
