@@ -210,7 +210,21 @@ function checkAnswerToLincolnsAssassinQuestion() {
 }
 
 /**
+ * SET USERS NAME
  *
+ * This function populates the paragraph element in the “index.html” file on line 13
+ * (<p id="show-users-name"></p>) with the input entered in the form whose container
+ * is on line 14.
+ *
+ * If the input entered by the user into the form is empty, an error message is
+ * displayed. Otherwise,
+ *
+ *    1. greet the user
+ *    2. hide the form the user just used to enter her/his name
+ *    3. display the <main> element, whose display is set to “none” by default
+ *    4. display the first question, Where Was Lincoln Born?
+ *    5. and, finally, wait 50 milliseconds before adding a class called “transition”
+ *       to the paragraph that greets the user (<p id="show-users-name"></p>).
  */
 function setUsersName() {
     "use strict";
