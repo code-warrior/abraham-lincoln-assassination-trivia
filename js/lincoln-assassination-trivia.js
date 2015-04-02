@@ -15,6 +15,12 @@ var lincolnsBirthPlace,
     whereWasLincolnBornQuestionContainer,
     whoAssassinatedLincolnQuestionContainer;
 
+/**
+ * SHOW MAIN
+ *
+ * Reveals the <main> element, then, after 50 milliseconds, adds a class that
+ * triggers a transition—thus the name—via CSS.
+ */
 function showMain() {
     "use strict";
 
