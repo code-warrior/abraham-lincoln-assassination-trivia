@@ -35,7 +35,11 @@ function showMain() {
 }
 
 /**
+ * SHOW QUESTION “WHERE WAS LINCOLN BORN?”
  *
+ * The question “Where Was Lincoln Born?” and the <form> used to answer it are both
+ * wrapped in a <section> container, which is turned off by default; that is,
+ * display is set to “none” in the CSS. This function simply reveals that container.
  */
 function showQuestionWhereWasLincolnBorn() {
     "use strict";
