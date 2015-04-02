@@ -87,7 +87,27 @@ function showResults() {
 }
 
 /**
+ * CHECK ANSWER TO LINCOLN’S BIRTH PLACE QUESTION
  *
+ * The first thing this function does is create a reference to the <p>aragraph child
+ * of the <section> element on line 42 of “index.html,” because this is where I’ll be
+ * rendering feedback on the answer the user submits.
+ *
+ * The switch statement is checking the value submitted by the <option> element of
+ * the form bound to the question “Where Was Lincoln Born?” In each of the three
+ * cases, “lansing,” “hodgenville,” and “washington,” the transition class is removed
+ * from the <section> element (line 27 in the HTML file) so that a new transition can
+ * be included later in each of the three cases.
+ *
+ * Also, in each of the three cases, following the removal of the class “transition,”
+ * a timer is set to run after 250 milliseconds that fills the paragraph child of the
+ * section element. The lines containing p.innerHTML are self-explanatory.
+ *
+ * Within the same timer, the transition class is added anew.
+ *
+ * In the “hodgenville” case, which is the correct answer to the question regarding
+ * the location of Lincoln’s birth place, a button with the text “Next Question” is
+ * set to display, and a second timer is added for the transition of that button.
  */
 function checkAnswerToLincolnsBirthPlaceQuestion() {
     "use strict";
