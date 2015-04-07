@@ -1,5 +1,5 @@
 # Trivia About Facts Surrounding Abraham Lincoln’s Assassination
-(v0.0.3)
+(v0.0.4)
 
 This web project is an education tool that shows learners how JavaScript can alter an HTML page dynamically (DHTML). Because this project is being developed during April 2015, the 150th anniversary of Abraham Lincoln’s passing, facts surrounding his assassination are used as the driving content of this example.
 
