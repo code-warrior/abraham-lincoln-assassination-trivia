@@ -281,28 +281,28 @@ function setUsersName() {
 window.onload = function () {
     "use strict";
 
-    lincolnsBirthPlace = document.getElementById("lincolns-birth-place");
-    lincolnsAssassin = document.getElementById("lincolns-assassin");
-    main = document.getElementsByTagName("main")[0];
-    moveToQuestion2 = document.getElementById("move-to-question-2");
-    moveToQuestion3 = document.getElementById("move-to-question-3");
-    nameContainer = document.getElementById("name-container");
-    requestUsersName = document.getElementById("request-users-name");
-    showUsersName = document.getElementById("show-users-name");
+    lincolnsBirthPlace = document.getElementById("lincolns-birth-place"); // line 32
+    lincolnsAssassin = document.getElementById("lincolns-assassin");      // line 48
+    main = document.getElementsByTagName("main")[0];                      // line 23
+    moveToQuestion2 = document.getElementById("move-to-question-2");      // line 44
+    moveToQuestion3 = document.getElementById("move-to-question-3");      // line 64
+    nameContainer = document.getElementById("name-container");            // line 14
+    requestUsersName = document.getElementById("request-users-name");     // line 15
+    showUsersName = document.getElementById("show-users-name");           // line 13
     submitLincolnsBirthPlace = document.getElementById(
         "submit-lincolns-birth-place"
-    );
+    );                                                                    // line 37
     submitNameOfLincolnsAssassin = document.getElementById(
         "submit-name-of-lincolns-assassin"
-    );
+    );                                                                    // line 57
     submitUsersName = document.getElementById("submit-users-name");
     usersName = document.getElementById("users-name");
     whereWasLincolnBornQuestionContainer = document.getElementById(
         "where-was-lincoln-born-question-container"
-    );
+    );                                                                    // line 27
     whoAssassinatedLincolnQuestionContainer = document.getElementById(
         "who-assassinated-lincoln-question-container"
-    );
+    );                                                                    // line 47
 
     submitUsersName.addEventListener(
         "click",
